@@ -1,0 +1,174 @@
+.main{
+	border: 2px solid lime;
+	padding:4%;
+	margin:4%;
+	display: flex;
+	flex-direction: row;
+}
+.left{
+	border: 2px solid blue;
+	padding:2%;
+	margin:2%;
+	border-radius: 10%;
+	text-align: center;
+	width:30%;
+	background-color: lightyellow;
+	
+}
+.left img{
+	width:20%;
+	border-radius:50%;
+	border:5px solid grey;
+	box-shadow:10px 12px 14px;
+}
+.right{
+	border: 2px solid blue;
+	padding:2%;
+	margin:2%;
+	border-radius:10%;
+	width:60%;
+	background-color: lightyellow;
+
+}
+#number{
+	color:green;
+	font-size:20px;
+}
+p{
+	color:slateblue;
+	font-size: 15px;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+	.main{
+	border: 2px solid lime;
+	padding:2%;
+	margin:2%;
+	display: flex;
+	flex-direction: column;
+}
+.left{
+	border: 2px solid blue;
+	padding:2%;
+	margin:2%;
+	border-radius: 10%;
+	text-align: center;
+	width:90%;
+	background-color: skyblue;
+}
+.left img{
+	width:20%;
+	border-radius:50%;
+	border:5px solid grey;
+	box-shadow:10px 12px 14px;
+}
+.right{
+	border: 2px solid blue;
+	padding:2%;
+	margin:2%;
+	border-radius:10%;
+	width:90%;
+	background-color: skyblue;
+}
+#number{
+	color:green;
+	font-size:20px;
+}
+p{
+	color:blue;
+	font-size: 15px;
+}
+.table1{
+	width:90%;
+	overflow-x: auto;
+}
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+	.main{
+	border: 2px solid lime;
+	padding:2%;
+	margin:2%;
+	display: flex;
+	flex-direction: row;
+}
+.left{
+	border: 2px solid blue;
+	padding:2%;
+	margin:2%;
+	border-radius: 10%;
+	text-align: center;
+	width:50%;
+	background-color: pink;
+}
+.left img{
+	width:20%;
+	border-radius:50%;
+	border:5px solid grey;
+	box-shadow:10px 12px 14px;
+}
+.right{
+	border: 2px solid blue;
+	padding:2%;
+	margin:2%;
+	border-radius:10%;
+	width:50%;
+	background-color: pink;
+}
+#number{
+	color:green;
+	font-size:20px;
+}
+p{
+	color:tomato;
+	font-size: 15px;
+}
+.table1{
+	width:90%;
+	overflow-x: auto;
+}
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+	.main{
+	border: 2px solid lime;
+	padding:2%;
+	margin:2%;
+	display: flex;
+	flex-direction: row;
+}
+.left{
+	border: 2px solid blue;
+	padding:2%;
+	margin:2%;
+	border-radius: 10%;
+	text-align: left;
+	width:40%;
+	background-color: lavender;
+}
+.left img{
+	width:20%;
+	border-radius:50%;
+	border:5px solid grey;
+	box-shadow:10px 12px 14px;
+}
+.right{
+	border: 2px solid blue;
+	padding:2%;
+	margin:2%;
+	border-radius:10%;
+	width:40%;
+	background-color: lavender;
+}
+#number{
+	color: green;
+	font-size:20px;
+}
+p{
+	color: slateblue;
+	font-size: 15px;
+}
+.table1{
+	width:90%;
+	overflow-x: auto;
+}
+}
+
+
